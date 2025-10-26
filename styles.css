@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+/* Navbar Styling */
+nav {
+    background-color: #011e29;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Images Section */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
